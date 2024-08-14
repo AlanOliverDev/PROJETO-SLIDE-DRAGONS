@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.carrossel {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.informacoes {
+  display: none;
+}
+
+.informacoes.ativa {
+  display: block;
+}
+
+.conteudo {
+  padding: 0px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  min-height: 100vh;
+}
+
+.informacoes h1 {
+  font-size: 48px;
+  color: #ffffff;
+  margin-bottom: 80px;
+  font-family: "Grenze Gotisch", serif;
+  letter-spacing: 7px;
+}
+
+.informacoes .descricao {
+  width: 49%; /*tamanho da largura do texto*/
+  font-size: 24px; /* tamanho das fontes*/
+  color: #ffffff;
+  line-height: 40px; /*altura das linhas-espaçamento*/
+  padding-right: 15px;
+}
+
+.botoes-carrossel {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  border: 2px solid transparent;
+}
+
+.botoes-carrossel .botao {
+  background-color: rgba(244, 241, 241, 0.513);
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  cursor: pointer;
+  border-color: #ffff;
+}
+
+.botoes-carrossel .botao.selecionado {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.imagem {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  display: none;
+}
+
+.imagem.ativa {
+  display: block;
+  animation: mudarImagem 1s;
+  -webkit-animation: mudarImagem 1s;
+}
+@keyframes mudarImagem {
+  from {
+    opacity: 0.85;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+main:after {
+  content: "";
+  width: 100vw;
+  min-height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  /*acesse o link para adicionar efeitos de opacidade na imagem copie e cole: https://cssgradient.io/*/
+  background: rgba(227, 224, 226, 0);
+  background: radial-gradient(
+    circle,
+    rgba(227, 224, 226, 0) 0%,
+    rgba(20, 21, 22, 0.426) 73%
+  );
+}

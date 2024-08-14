@@ -1,0 +1,313 @@
+@media (max-width: 1280px) {
+  body{
+    background: rgb(227, 224, 226);
+  background: radial-gradient(
+    circle,
+    rgb(227, 224, 226) 0%,
+    rgba(20, 21, 22, 0.992) 73%
+    );
+   }
+  .informacoes h1{
+    text-align: center;
+    font-size: 55px; /*tamanho das fontes*/
+    color: #ffffff;
+    line-height: 70px; /*altura das linhas-espaçamento*/
+   }
+  .informacoes .descricao{
+    width: auto; /*tamanho da largura do texto*/
+    font-size: 25px; /* tamanho das fontes*/
+    color: #ffffff;
+    line-height: 50px; /*altura das linhas-espaçamento*/
+    padding-right: 15px;
+    height: auto;
+    }
+    .botoes-carrossel .botao{
+        min-width: 30px;
+        min-height: 30px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    body{
+      background: rgb(227, 224, 226);
+    background: radial-gradient(
+      circle,
+      rgb(227, 224, 226) 0%,
+      rgba(20, 21, 22, 0.992) 73%
+      );
+     }
+    .informacoes h1{
+      text-align: center;
+      font-size: 48px; /*tamanho das fontes*/
+      color: #ffffff;
+      line-height: 70px; /*altura das linhas-espaçamento*/
+     }
+    .informacoes .descricao{
+      width: auto; /*tamanho da largura do texto*/
+      font-size: 22px; /* tamanho das fontes*/
+      color: #ffffff;
+      line-height: 40px; /*altura das linhas-espaçamento*/
+      height: auto;
+      }
+      .botoes-carrossel .botao{
+          min-width: 25px;
+          min-height:25px;
+      }
+  }
+
+@media (max-width: 912px) {
+    .informacoes h1{
+      text-align: center;
+      font-size: 65px; /*tamanho das fontes*/
+      color: #ffffff;
+      line-height: 50px; /*altura das linhas-espaçamento*/
+     
+    }
+
+    .informacoes .descricao{
+        font-size: 30px; /* tamanho das fontes*/
+        color: #ffffff;
+        line-height: 50px; /*altura das linhas-espaçamento*/
+        width: auto; /*tamanho da largura do texto*/
+       
+       
+    }
+    .botoes-carrossel .botao{
+        min-width: 25px;
+        min-height: 25px;
+    }
+}
+
+@media (max-width: 853px) {
+    .informacoes h1{
+      text-align: center;
+      font-size: 55px; /*tamanho das fontes*/
+      color: #ffffff;
+      line-height: 60px; /*altura das linhas-espaçamento*/
+     
+    }
+
+    .informacoes .descricao{
+        font-size: 25px; /* tamanho das fontes*/
+        color: #ffffff;
+        line-height: 50px; /*altura das linhas-espaçamento*/
+        width: auto; /*tamanho da largura do texto*/
+       
+       
+    }
+    .botoes-carrossel .botao{
+        min-width: 25px;
+        min-height: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .informacoes h1{
+      text-align: center;
+      font-size: 50px; /*tamanho das fontes*/
+      color: #ffffff;
+      line-height: 50px; /*altura das linhas-espaçamento*/
+     
+    }
+
+    .informacoes .descricao{
+        font-size: 22px; /* tamanho das fontes*/
+        color: #ffffff;
+        line-height: 40px; /*altura das linhas-espaçamento*/
+        height: 450px;
+      
+    }
+    .botoes-carrossel .botao{
+        height: 15px;
+        width: 15px;
+    }
+}
+@media (max-width: 748px) {
+    .informacoes h1{
+      text-align: center;
+      font-size: auto; /*tamanho das fontes*/
+      color: #ffffff;
+      line-height: 50px; /*altura das linhas-espaçamento*/
+     
+    }
+
+    .informacoes .descricao{
+        font-size: auto; /* tamanho das fontes*/
+        color: #ffffff;
+        line-height: 40px; /*altura das linhas-espaçamento*/
+        height: 450px;
+      
+    }
+    .botoes-carrossel .botao{
+        height: 15px;
+        width: 15px;
+    }
+}
+
+@media (max-width: 680px) {     
+    .informacoes h1{
+      text-align: center;
+      font-size: 44px; /*tamanho das fontes*/
+      color: #ffffff;
+      line-height: auto; /*altura das linhas-espaçamento*/
+     
+    }
+
+    .informacoes .descricao{
+        font-size: 25px; /* tamanho das fontes*/
+        color: #ffffff;
+        line-height: 40px; /*altura das linhas-espaçamento*/
+        height: 300px;
+        width: auto; /*tamanho da largura do texto*/
+        overflow: scroll;
+      
+    }
+    .botoes-carrossel .botao{
+        height: 15px;
+        width: 15px;
+    }   
+}
+
+@media (max-width: 540px) {
+    .informacoes h1{
+        text-align: center;
+        font-size: 50px; /*tamanho das fontes*/
+        color: #ffffff;
+        line-height: 50px; /*altura das linhas-espaçamento*/
+      }
+  
+      .informacoes .descricao{
+          font-size: 20px; /* tamanho das fontes*/
+          color: #ffffff;
+          line-height: 30px; /*altura das linhas-espaçamento*/
+          height: 400px;
+          width: auto; /*tamanho da largura do texto*/
+          overflow: scroll;
+      }
+    .botoes-carrossel .botao{
+        min-width: 20px;
+        min-height: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .informacoes h1{
+        text-align: center;
+        font-size: 29px; /*tamanho das fontes*/
+        color: #ffffff;
+        line-height: 50px; /*altura das linhas-espaçamento*/
+      }
+  
+      .informacoes .descricao{
+          font-size: auto; /* tamanho das fontes*/
+          color: #ffffff;
+          line-height: 40px; /*altura das linhas-espaçamento*/
+          height: 500px;
+          width: auto; /*tamanho da largura do texto*/
+          overflow: scroll;
+      }
+    .botoes-carrossel .botao{
+        min-width: 15px;
+        min-height: 15px;
+    }
+}
+
+@media (max-width: 430px) {
+    .informacoes h1{
+        text-align: center;
+        font-size: 19px; /*tamanho das fontes*/
+        color: #ffffff;
+        line-height: 40px; /*altura das linhas-espaçamento*/
+      }
+  
+      .informacoes .descricao{
+          font-size: 12px; /* tamanho das fontes*/
+          color: #ffffff;
+          line-height: 30px; /*altura das linhas-espaçamento*/
+          height: 500px;
+          width: auto; /*tamanho da largura do texto*/
+          overflow: scroll;
+      }
+    .botoes-carrossel .botao{
+        min-width: 15px;
+        min-height: 15px;
+    }
+}
+
+
+@media (max-width: 395px) {
+    .informacoes h1{
+        text-align: center;
+        font-size:17px; /*tamanho das fontes*/
+        color: #ffffff;
+        line-height: 30px; /*altura das linhas-espaçamento*/
+      }
+  
+      .informacoes .descricao{
+          font-size: 13px; /* tamanho das fontes*/
+          color: #ffffff;
+          line-height: 30px; /*altura das linhas-espaçamento*/
+          height: 300px;
+          width: auto; /*tamanho da largura do texto*/
+          overflow: scroll
+      }
+    .botoes-carrossel .botao{
+        min-width: 15px;
+        min-height: 15px;
+    }
+}
+
+@media (max-width: 375px) {
+    .informacoes h1{
+        text-align: center;
+        font-size: 13px; /*tamanho das fontes*/
+        color: #ffffff;
+        line-height: 30px; /*altura das linhas-espaçamento*/
+      }
+  
+      .informacoes .descricao{
+          font-size: 10px; /* tamanho das fontes*/
+          color: #ffffff;
+          line-height: 25px; /*altura das linhas-espaçamento*/
+          height: 300px;
+          width: auto; /*tamanho da largura do texto*/
+          overflow: scroll;
+      }
+    .botoes-carrossel .botao{
+        min-width: 15px;
+        min-height: 15px;
+    }
+}
+
+@media (max-width: 280px) {
+    .informacoes h1{
+        text-align: center;
+        font-size: 20px; /*tamanho das fontes*/
+        color: #ffffff;
+        line-height: 25px; /*altura das linhas-espaçamento*/
+      }
+  
+      .informacoes .descricao{
+          font-size: 12px; /* tamanho das fontes*/
+          color: #ffffff;
+          line-height: 20px; /*altura das linhas-espaçamento*/
+          height: 300px;
+          width: auto; /*tamanho da largura do texto*/
+          overflow: scroll;
+      }
+      
+    .botoes-carrossel .botao{
+        margin: 0 -5px;
+        width: 10px;
+        height: 10px;
+    }
+      
+}
+
+
+
+
+
+
+
