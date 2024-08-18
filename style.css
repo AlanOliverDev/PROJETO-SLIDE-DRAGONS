@@ -30,10 +30,11 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
   min-height: 100vh;
+  min-width: 100vw;
 }
 
 .informacoes h1 {
-  font-size: 48px;
+  font-size: 108px;
   color: #ffffff;
   margin-bottom: 80px;
   font-family: "Grenze Gotisch", serif;
@@ -57,8 +58,8 @@ body {
 
 .botoes-carrossel .botao {
   background-color: rgba(244, 241, 241, 0.513);
-  height: 15px;
-  width: 15px;
+  height: 35px;
+  width: 35px;
   border-radius: 50%;
   border: 2px solid transparent;
   cursor: pointer;
@@ -78,8 +79,9 @@ body {
 
 .imagem.ativa {
   display: block;
-  animation: mudarImagem 1s;
-  -webkit-animation: mudarImagem 1s;
+  animation: mudarImagem 1s;/*Inicia-a-animação-de-reflexo-de-luz*/
+  animation: pulse 1s ;/*Aplica-a-animação-de-pulsar-à-imagem-quando-o-passa-a-imagem*/
+  position: relative;
 }
 @keyframes mudarImagem {
   from {
@@ -87,6 +89,18 @@ body {
   }
   to {
     opacity: 1;
+  }
+}
+/* Define-a-animação-de-pulsação */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(3);
+  }
+  100% {
+    transform: scale(1);
   }
 }
 
