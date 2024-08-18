@@ -225,7 +225,7 @@
           font-size: 12px; /* tamanho das fontes*/
           color: #ffffff;
           line-height: 30px; /*altura das linhas-espaçamento*/
-          height: 500px;
+          height: 300px;
           width: auto; /*tamanho da largura do texto*/
           overflow: scroll;
       }
@@ -304,7 +304,6 @@
     }
       
 }
-
 
 
 
