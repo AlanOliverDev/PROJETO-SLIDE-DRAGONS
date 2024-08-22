@@ -939,15 +939,15 @@
     color: #ffffffcc;
   }
   
-  .informacoes .descricao {
-    height: 100px;
+.informacoes .descricao {
+    height: 75px;
     text-align: center;
-    margin: 10px 0;
+    margin: 20px 0;
     padding: 0 60px;
     font-size: 11px; /* tamanho das fontes*/
     font-weight: 400;
     color: #ffffffe1;
-    line-height: 20px; /*altura das linhas-espaçamento*/
+    line-height: 18px; /*altura das linhas-espaçamento*/
     overflow: scroll;
     overflow-x: hidden;
   }
