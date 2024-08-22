@@ -1,59 +1,70 @@
-/*
-passo 1 - Pegar o elemento HTML dos botões: Você precisará encontrar uma maneira de
- selecionar os botões na página usando JavaScript.
 
-passo 2 - Identificar o clique do usuário no botão: Isso envolve detectar
- quando o usuário clica em um botão específico.
-
-passo 3 - Marcar o botão clicado como selecionado: Isso pode ser feito alterando 
-a aparência visual do botão.
-
-passo 4 - Desmarcar o botão selecionado anteriormente: Certifique-se de que
- apenas um botão esteja selecionado por vez.
-
-passo 5 - Exibir a imagem correspondente ao botão clicado: Quando o usuário 
-clicar em um botão, a imagem de fundo deve mudar.
-
-passo 6 - Esconder a informação anteriormente selecionada: Se houver alguma 
-informação exibida anteriormente, ela deve ser ocultada.
-
-passo 7 - Mostrar a informação do dragão referente ao botão clicado: 
-Isso provavelmente se refere a algum conteúdo específico relacionado a um dragão.
-
-passo 8 - mostrar a informação do texto do dragão referente ao botão: 
-*/
-
-//passo 1 - dar um jeito de pegar os elementos HTML dos botões
+document.addEventListener('DOMContentLoaded', () => {
+    // Passo 1 - Pegar os elementos HTML dos botões
     const botoesCarrossel = document.querySelectorAll(".botao");
     const imagensCarrossel = document.querySelectorAll(".imagem");
     const informacoes = document.querySelectorAll(".informacoes");
-
-//passo 2 - dar um jeito de identificar o clique do usuário no botão
-    botoesCarrossel.forEach((botao , indice)=> {
-       botao.addEventListener("click", () => {
-        //passo 3 - desmarcar o botão anteriormente selecionado
-
-        const botaoSelecionado = document.querySelector(".selecionado");
+    const totalSlides = imagensCarrossel.length;
+    let currentIndex = 0;
+  
+    function showSlide(index) {
+      if (index >= totalSlides) {
+        currentIndex = 0;
+      } else if (index < 0) {
+        currentIndex = totalSlides - 1;
+      } else {
+        currentIndex = index;
+      }
+  
+      // Passo 3 - Desmarcar o botão anteriormente selecionado
+      const botaoSelecionado = document.querySelector(".botao.selecionado");
+      if (botaoSelecionado) {
         botaoSelecionado.classList.remove("selecionado");
-        
-        //passo 4 - marcar o botão clicado como selecionado
-        botao.classList.add("selecionado");
-
-        //passo 5 - esconder a imagem anteriormente selecionada
-        const imagemAtiva = document.querySelector(".ativa");
+      }
+  
+      // Passo 4 - Marcar o botão clicado como selecionado
+      botoesCarrossel[currentIndex].classList.add("selecionado");
+  
+      // Passo 5 - Esconder a imagem anteriormente selecionada
+      const imagemAtiva = document.querySelector(".imagem.ativa");
+      if (imagemAtiva) {
         imagemAtiva.classList.remove("ativa");
-        
-        //passo 6 - mostrar a imagem correspondente ao botão clicado
-        imagensCarrossel[indice].classList.add("ativa");
-
-       //passo 7 - esconder a informação do texto do dragão anteriormente selecionado
-       const informacoesAtiva = document.querySelector(".informacoes.ativa");
-      informacoesAtiva.classList.remove("ativa");
-
-      //passo 8 - mostrar a informação do texto do dragão referente ao botão
-      informacoes[indice].classList.add("ativa");
-
-       })
-    })
-
-
+      }
+  
+      // Passo 6 - Mostrar a imagem correspondente ao botão clicado
+      imagensCarrossel[currentIndex].classList.add("ativa");
+  
+      // Passo 7 - Esconder a informação do texto do dragão anteriormente selecionado
+      const informacoesAtiva = document.querySelector(".informacoes.ativa");
+      if (informacoesAtiva) {
+        informacoesAtiva.classList.remove("ativa");
+      }
+  
+      // Passo 8 - Mostrar a informação do texto do dragão referente ao botão
+      informacoes[currentIndex].classList.add("ativa");
+  
+      // Move o carrossel para a posição correta
+      const carrossel = document.querySelector('.carrossel');
+      carrossel.style.transform = `translateX(-${currentIndex * 100}%)`;
+    }
+  
+    // Passo 2 - Identificar o clique do usuário no botão
+    botoesCarrossel.forEach((botao, indice) => {
+      botao.addEventListener("click", () => {
+        showSlide(indice);
+      });
+    });
+  
+    // Navegação com teclas de direção teclado
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight') {
+        showSlide(currentIndex + 1);
+      } else if (e.key === 'ArrowLeft') {
+        showSlide(currentIndex - 1);
+      }
+    });
+  
+    // Inicializa o carrossel
+    showSlide(currentIndex);
+  });
+  
