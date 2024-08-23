@@ -182,7 +182,7 @@ main:after {
   color: #ffff;
   text-align: center;
   position: absolute;
-  bottom: 0;
+  margin: 10px 0;
 }
 
 .github-link{
