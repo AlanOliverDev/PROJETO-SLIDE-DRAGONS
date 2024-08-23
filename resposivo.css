@@ -939,7 +939,7 @@
     color: #ffffffcc;
   }
   
-.informacoes .descricao {
+  .informacoes .descricao {
     height: 75px;
     text-align: center;
     margin: 20px 0;
@@ -971,4 +971,3 @@
   }
   
 }
-
