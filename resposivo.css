@@ -58,10 +58,10 @@
       height: 450px;
       text-align: center;
       padding: 0 300px;
-      font-size: 25px; /* tamanho das fontes*/
+      font-size: 27px; /* tamanho das fontes*/
       font-weight: 400;
       color: #ffffffcc;
-      line-height: 30px; /*altura das linhas-espaçamento*/
+      line-height: 41px; /*altura das linhas-espaçamento*/
       overflow: scroll;
       overflow-x: hidden;
     }
@@ -106,7 +106,7 @@
       font-size: 25px; /* tamanho das fontes*/
       font-weight: 400;
       color: #ffffffe1;
-      line-height: 30px; /*altura das linhas-espaçamento*/
+      line-height: 41px; /*altura das linhas-espaçamento*/
       overflow: scroll;
       overflow-x: hidden;
     }
@@ -150,7 +150,7 @@
       font-size: 25px; /* tamanho das fontes*/
       font-weight: 400;
       color: #ffffffe1;
-      line-height: 30px; /*altura das linhas-espaçamento*/
+      line-height: 41px; /*altura das linhas-espaçamento*/
       overflow: scroll;
       overflow-x: hidden;
     }
@@ -193,7 +193,7 @@
       text-align: center;
       margin: 130px 0;
       padding: 0 250px;
-      font-size: 25px; /* tamanho das fontes*/
+      font-size: 20px; /* tamanho das fontes*/
       font-weight: 400;
       color: #ffffffe1;
       line-height: 30px; /*altura das linhas-espaçamento*/
@@ -369,7 +369,7 @@
     .informacoes .descricao {
       height: 300px;
       text-align: center;
-      margin: 60px 0;
+      margin: 50px 0;
       padding: 0 100px;
       font-size: 14px; /* tamanho das fontes*/
       font-weight: 400;
@@ -416,10 +416,10 @@
       text-align: center;
       margin: 60px 0;
       padding: 0 60px;
-      font-size: 15px; /* tamanho das fontes*/
+      font-size: 12px; /* tamanho das fontes*/
       font-weight: 400;
       color: #ffffffe1;
-      line-height: 25px; /*altura das linhas-espaçamento*/
+      line-height: 20px; /*altura das linhas-espaçamento*/
       overflow: scroll;
       overflow-x: hidden;
     }
