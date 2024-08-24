@@ -103,11 +103,16 @@ body {
 }
 
 .rodape{
-  
   color: #ffff;
   text-align: center;
-  position: static;
-  margin: 3px  0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #33333357; /* Adicione uma cor de fundo se necessário */
+  padding: 10px 0; /* Adicione um pouco de padding para garantir que o texto não fique grudado na borda */
+  margin: 0;
+  z-index: 1000; /* Assegure-se de que o footer está acima do conteúdo */
 }
 
 .github-link{
