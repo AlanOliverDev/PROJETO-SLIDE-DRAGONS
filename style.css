@@ -4,10 +4,17 @@
   box-sizing: border-box;
 }
 
-body {
+html, body{
   height: 100%;
   width: 100%;
   font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden; /* Impede o deslocamento horizontal */
+}
+
+main{
+  flex: 1; /* Isso faz com que o conteúdo principal ocupe todo o espaço disponível */
 }
 
 .carrossel {
@@ -105,14 +112,10 @@ body {
 .rodape{
   color: #ffff;
   text-align: center;
-  position: fixed;
-  bottom: 0;
-  left: 0;
+  background-color: #33333356;
+  padding: 10px 0;
   width: 100%;
-  background-color: #33333357; /* Adicione uma cor de fundo se necessário */
-  padding: 10px 0; /* Adicione um pouco de padding para garantir que o texto não fique grudado na borda */
   margin: 0;
-  z-index: 1000; /* Assegure-se de que o footer está acima do conteúdo */
 }
 
 .github-link{
