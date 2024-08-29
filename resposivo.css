@@ -1,4 +1,4 @@
-@media (orientation: portrait ) and (max-width: 1280px) { 
+@media (orientation: portrait ) and (min-width: 1220px) { 
  
       .informacoes h1 {
         margin-bottom: 100px;
@@ -32,12 +32,12 @@
       }   
       
       .rodape{
-        font-size: 25px;
+        font-size: 20px;
       }
       
 }
 
-@media (orientation: portrait ) and (max-width: 1100px) { 
+@media (orientation: portrait ) and (max-width: 1180px) { 
  
     .informacoes h1 {
       margin-bottom: 100px;
@@ -72,7 +72,7 @@
     }   
     
     .rodape{
-      font-size: 20px;
+      font-size: 15px;
     }
     
 }
@@ -112,7 +112,7 @@
     }   
     
     .rodape{
-      font-size: 20px;
+      font-size: 14px;
     }
     
 }
@@ -152,7 +152,7 @@
     }   
     
     .rodape{
-      font-size: 15px;
+      font-size: 12px;
     }
     
 }
@@ -193,7 +193,7 @@
     }   
     
     .rodape{
-      font-size: 15px;
+      font-size: 12px;
     }
     
 }
@@ -232,7 +232,7 @@
     }   
     
     .rodape{
-      font-size: 10px;
+      font-size: 9px;
     }
     
 }
@@ -272,7 +272,7 @@
     }   
     
     .rodape{
-      font-size: 10px;
+      font-size: 9px;
     }
     
 }
@@ -312,7 +312,7 @@
     }   
     
     .rodape{
-      font-size: 10px;
+      font-size: 8px;
     }
     
 }
@@ -352,7 +352,7 @@
     }   
     
     .rodape{
-      font-size: 9px;
+      font-size: 7px;
     }
     
 }
@@ -392,7 +392,7 @@
     }   
     
     .rodape{
-      font-size: 7px;
+      font-size: 6px;
 
     }
     
@@ -429,7 +429,7 @@
     }   
     
     .rodape{
-      font-size: 16px;
+      font-size: 15px;
     }
     
 }
@@ -468,7 +468,7 @@
     }   
     
     .rodape{
-      font-size: 16px;
+      font-size: 14px;
     }
     
 }
@@ -507,7 +507,7 @@
     }   
     
     .rodape{
-      font-size: 16px;
+      font-size: 12px;
     }
     
 }
@@ -546,7 +546,7 @@
     }   
     
     .rodape{
-      font-size: 16px;
+      font-size: 12px;
     }
     
 }
@@ -585,7 +585,7 @@
   }   
   
   .rodape{
-    font-size: 12px;
+    font-size: 10px;
   }
   
 }
@@ -623,7 +623,7 @@
     }   
     
     .rodape{
-      font-size: 12px;
+      font-size: 9px;
     }
     
 }
@@ -665,7 +665,7 @@
     }   
     
     .rodape{
-      font-size: 12px;
+      font-size: 9px;
     }
     
 }
@@ -704,7 +704,7 @@
   }   
   
   .rodape{
-    font-size: 12px;
+    font-size: 9px;
   }
   
 }
@@ -743,7 +743,7 @@
     }   
     
     .rodape{
-      font-size: 10px;
+      font-size: 8px;
     }
     
 }
@@ -782,7 +782,7 @@
     }   
     
     .rodape{
-      font-size: 10px;
+      font-size: 8px;
     }
     
 }
@@ -822,7 +822,7 @@
     }   
     
     .rodape{
-      font-size: 8px;
+      font-size: 7px;
     }
     
 }
@@ -861,7 +861,7 @@
   }   
   
   .rodape{
-    font-size: 8px;
+    font-size: 7px;
   }
   
 }
