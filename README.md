@@ -21,9 +21,9 @@ Artificial Intelligence: All text information and slide titles were created usin
 
 Signature: The site's footer features the developer's signature: @Alan_Oliver_Dev.
 
-CSS Background Effects: Additional background effects were incorporated via CSS Gradient.
+CSS Background Effects: Additional background effects were incorporated via https://cssgradient.io/
 
-Fonts: Additional fonts were incorporated into the project via Google Fonts.
+Fonts: Additional fonts were incorporated into the project via https://fonts.google.com/
 
 HTML Tags: Use of main, section, and footer tags for better syntax and code understanding.
 
@@ -62,7 +62,7 @@ Assinatura: O rodapé do site conta com a assinatura do desenvolvedor: @Alan_Oli
 
 Efeitos de Fundo CSS: Utilização de efeitos de fundo adicionais através do site https://cssgradient.io/
 
-Fontes: Fontes adicionais foram incorporadas ao projeto via https://fonts.google.com/.
+Fontes: Fontes adicionais foram incorporadas ao projeto via https://fonts.google.com/
 
 Tags HTML: Utilização das tags main, section, e footer para uma melhor sintaxe e compreensão do código.
 
