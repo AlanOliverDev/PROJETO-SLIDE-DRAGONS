@@ -74,17 +74,28 @@ Arquivos CSS Separados: Os arquivos CSS responsivo e Style , foram separados do 
 
 Este projeto foi uma jornada incrível na criação de uma aplicação web que combina conteúdo interativo com uma experiência visual cativante. Espero que aproveite a história dos dragões e toda a magia que ela traz!
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Image 1: Mobile Devices / Imagem 1: Dispositivos Mobiles
+
 ![image](https://github.com/user-attachments/assets/209ef808-a351-4382-a671-28c6fc9fa0e8)
+
 As illustrated in image 1, it shows the website interface on a mobile device, highlighting the responsiveness and adaptation of the layout for smaller screens.
+
 Conforme ilustrado na imagem 1, ela mostra a interface do site em um dispositivo móvel, destacando a responsividade e a adaptação do layout para telas menores.
 
 Image 2: iPad Tabs / Imagem 2: iPads Tabs
+
 ![image](https://github.com/user-attachments/assets/730c6aa6-0ce3-4c26-bd3c-25a4c5307756)
+
 As illustrated in image 2, it presents the site on a tablet, demonstrating how the elements rearrange themselves to provide an optimized user experience on mid-range devices.
+
 Conforme ilustrado na imagem 2, ela apresenta o site em um tablet, demonstrando como os elementos se reorganizam para proporcionar uma experiência de usuário otimizada em dispositivos de médio porte.
 
 Image 3: Desktop Computers (PC) / Imagem 3: Computadores DeskTops (PC)
+
 ![image](https://github.com/user-attachments/assets/74f99aae-5153-49a6-895f-52997b9a7e42)
+
 As illustrated in image 3, it displays the site on a desktop computer, highlighting the complete layout and efficient use of available space on larger screens.
+
 Conforme ilustrado na imagem 3, ela exibe o site em um computador desktop, evidenciando o layout completo e a utilização eficiente do espaço disponível em telas maiores. 
