@@ -84,6 +84,8 @@ As illustrated in image 1, it shows the website interface on a mobile device, hi
 
 Conforme ilustrado na imagem 1, ela mostra a interface do site em um dispositivo móvel, destacando a responsividade e a adaptação do layout para telas menores.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Image 2: iPad Tabs / Imagem 2: iPads Tabs
 
 ![image](https://github.com/user-attachments/assets/730c6aa6-0ce3-4c26-bd3c-25a4c5307756)
@@ -91,6 +93,8 @@ Image 2: iPad Tabs / Imagem 2: iPads Tabs
 As illustrated in image 2, it presents the site on a tablet, demonstrating how the elements rearrange themselves to provide an optimized user experience on mid-range devices.
 
 Conforme ilustrado na imagem 2, ela apresenta o site em um tablet, demonstrando como os elementos se reorganizam para proporcionar uma experiência de usuário otimizada em dispositivos de médio porte.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Image 3: Desktop Computers (PC) / Imagem 3: Computadores DeskTops (PC)
 
